@@ -1,1 +1,13 @@
+#include <stdio.h>
 
+int main(void)
+{
+    int a;
+    int b;
+    double i;
+    scanf("%d %d", &a, &b);
+    i = ((double)a / (double)b);
+    if (a > 0 && b < 10)
+        printf("%.9f", i);
+    return (0);
+}
